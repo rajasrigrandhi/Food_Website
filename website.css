@@ -1,0 +1,355 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.first{
+    position: fixed;
+    width: 100%;
+    height: 84px;
+    background-color: white;
+}
+.first img{
+    width: 92px;
+    margin-left: 25px;
+    float: left;
+    margin-right: 400px;
+}
+.first div{
+    line-height: 92px; 
+
+}
+.first div a{
+    color: rgb(231, 17, 17);
+    text-decoration: 0;
+    font-size: 16px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.topsec{
+    padding-top: 92px;
+    padding-left: 68px;
+}
+
+.second{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+}
+.sec{
+    color: white;
+    padding-top: 48px;
+    padding-left: 80px;
+    text-align: center;
+}
+.sec  h1{
+    font-family: sans-serif;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.sec  h3{
+    font-family: sans-serif;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.view{
+    padding: 10px 26px;
+    font-size: 20px;
+    color: white;
+    background: orange;
+    border: 0;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-right: 80px;
+    outline-color: red ;
+}
+.order{
+    padding: 10px 26px;
+    font-size: 20px;
+    color: orange;
+    background: transparent;
+    border: 1px solid orange;
+    border-radius: 10px;
+    font-weight: bold;
+    outline-color: red ;
+    }
+    .third{
+        height: 100%;
+        background-color: rgb(11, 235, 235);
+    }
+    .third h1{
+        color: deeppink;
+        text-shadow: 3px 3px 3px white;
+        font-style: italic;
+        text-decoration: underline;
+        text-align: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    }
+    .third p{
+color: green;
+
+
+    }
+    .imgbox{
+        
+    width: 283px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 34px;
+    background: white;
+    border: 0;
+    height: 300px;
+}
+    .box{
+        display: flex;
+    justify-content: space-around;
+    }
+    .imgbox p{
+        color: grey;
+    }
+    .imgbox h2{
+        color: blue;
+    }
+    .fourth{
+        background: bisque;
+        height: 100vh;
+    
+    }
+    .fourth h1{
+        color: red;
+        text-shadow: 3px 3px 3px black;
+        text-align: center;
+        padding: 10px;
+    }
+    .oneimage{
+        display: flex;
+        justify-content: space-around;
+    }
+    .images{
+        border: 2px solid;
+    width: 228px;
+    text-align: center;
+    padding: 10px;
+    background: black;
+    
+    border-radius: 44px;
+    }
+    .images img{
+        height: 155px;
+        width: 210px;
+        border-radius: 25px;
+    }
+    .images h4{
+        color: goldenrod;
+    }
+    .images p{
+        color: red;
+    }
+    .twoimage{
+        display: flex;
+        justify-content: space-around; 
+        margin-top: 10px;
+    }
+
+    .amma{
+        width: 214px;
+    border: 1px solid;
+    padding: 4px;
+    text-align: center;
+    padding-top: 17px;
+    background: brown;
+    color: white;
+    border-radius: 12px;
+    }
+    .fifthone{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+        border: 2px solid red;
+        border-radius: 10px;
+        margin: 18px;
+        padding: 20px;
+    }
+    .fifthtwo{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+        border: 2px solid blue;
+        border-radius: 10px;
+        margin: 18px;
+        padding: 20px;
+    }
+    .amma h2{
+        font-style: italic;
+        text-decoration: underline;
+        /* line-break: strict; */
+        font-size: 20px;
+    
+    }
+    .six{
+display: flex;
+justify-content: space-around;
+margin-top: 50px;
+    }
+    .six img{
+        width: 416px;
+    }.health{
+border: 2px solid white;
+    width: 576px;
+    line-height: 33px;
+    }
+    .health h2{
+        color: deeppink;
+        border-bottom: 2px solid blue;
+    }
+    .health p{
+color: grey;
+    }
+    .health a{
+padding: 10px 20px;
+background-color:goldenrod;
+color: red;
+font-weight: bold;
+font-size: 20px;
+border: 0;
+outline: 0;
+border-radius: 15px;
+    }
+
+    .seven{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 70px;
+    }
+    .sevenone{
+margin-left: 50px;
+line-height: 33px;
+    }
+    .sevenone h2{
+        color: green;
+    }
+    .sevenone p{
+color: grey;
+    }
+    .sevenone button{
+        padding: 10px 20px;
+        margin: 50px;
+        background-color:goldenrod;
+        color:white;
+        font-weight: bold;
+        font-size: 20px;
+        border: 0;
+        outline: 0;
+        border-radius: 15px;
+    }
+    .sevenone img{
+width: 70px;
+    }
+    .delivery{
+        width: 537px;
+        height: 315px;
+    }
+    .bill label{
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    .payment label{
+        font-weight: bold;
+        margin-top: 20px;
+    }
+    .paymentone{
+        display: flex;
+        justify-content: space-between;
+    }
+    .payment img{
+        width: 50px;
+    }
+    .paymenttwo{
+        display: flex;
+    }
+    .paymenttwo input{
+        padding-left: 18px;
+        width: 100px;
+    }
+    .paymenttwo label{
+font-weight: bold;
+    }
+    .pay{
+        height: 44px;
+        margin-top: 20px;
+        width: 100%;
+        background: limegreen;
+        border: 0;
+        border-radius: 10px;
+        color: white;
+        font-weight: bold;
+    }
+    .paymentpage{
+        width: 636px;
+        padding: 20px;
+        background: cornsilk;
+        border-radius: 20px;
+        border: dotted;
+    
+    }
+    .paypage{
+        background-image: url("https://tse4.mm.bing.net/th?id=OIP.aMTGh8AHnCkeYt_VVLXxnQHaCs&pid=Api&P=0&h=180");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        padding: 80px;
+    }
+    .eight
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+.eight h2{
+    color: darkblue;
+    text-decoration: underline;
+}
+.eight p
+{
+color: grey;
+padding-top: 20px;
+}
+.eight img{
+width: 300px;
+}
+.eight a{
+    padding: 10px 20px;
+    margin: 50px;
+    background-color:goldenrod;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 15px;
+}
+.image img{
+ width: 100%;  
+}
+.nine{
+    background: gold;
+    height: 295px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   word-spacing: 300px;
+   
+}
+.nineone i{
+    font-size: 78px;
+    border: 8px solid white;
+    height: 142px;
+    padding: 26px;
+    border-radius: 50%;
+}
+.space{
+    background: white;
+    height: 50%;
+}
